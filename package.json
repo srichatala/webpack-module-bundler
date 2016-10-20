@@ -1,0 +1,31 @@
+{
+  "name": "webpack-module-bundler",
+  "version": "1.0.0",
+  "description": "Webpack module bundler application",
+  "main": "web.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srichatala/webpack-module-bundler.git"
+  },
+  "author": "Sri Chatala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srichatala/webpack-module-bundler/issues"
+  },
+  "homepage": "https://github.com/srichatala/webpack-module-bundler#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "react": "^15.3.2",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "file-loader": "^0.9.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
