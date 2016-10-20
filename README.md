@@ -11,14 +11,14 @@ To get the application to on your local, follow the steps:
 
 1. clone repository
 2. C:/>npm insall webpack -g
-3.C:/>npm install webpack-dev-server -g
+3. C:/>npm install webpack-dev-server -g
 
 ## Run
 Run the application with webpack live server
 
-1.To build the application run the following command
-2.C:/>webpack-module-bundler>webpack ./src/app.js ./dist/bundle.js
-3.To view output in brower run the follwing command. ex: localhost:8080
- 4.C:/>webpack-module-bundler>webpack-dev-server
+1. To build the application run the following command 
+2. C:/>webpack-module-bundler>webpack ./src/app.js ./dist/bundle.js 
+3. To view output in brower run the follwing command. ex: localhost:8080 
+4. C:/>webpack-module-bundler>webpack-dev-server
 
 
