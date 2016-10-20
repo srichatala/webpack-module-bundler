@@ -1,5 +1,6 @@
 
-# Webpack module bundler
+# Webpack module bundler |travis-img|_
+======================================  
 Webpack module bundler application
 
 ##Pre-Requisities
@@ -22,3 +23,5 @@ Run the application with webpack live server
 4. C:/>webpack-module-bundler>webpack-dev-server
 
 
+.. |travis-img| image:: https://api.travis-ci.org/srichatala/webpack-module-bundler.png
+.. _travis-img: https://travis-ci.org/srichatala/webpack-module-bundler
