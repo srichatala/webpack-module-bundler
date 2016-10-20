@@ -42,9 +42,19 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
+
+	var component = __webpack_require__(1);
 
 	document.write('Welcome to Webpack app');
+
+	document.write(component);
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	module.exports = "It works from the component.js";
 
 /***/ }
 /******/ ]);

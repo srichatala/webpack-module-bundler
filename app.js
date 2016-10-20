@@ -1,1 +1,0 @@
-document.write('Welcome to Webpack app');
