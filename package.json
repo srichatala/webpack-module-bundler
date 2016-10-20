@@ -4,6 +4,7 @@
   "description": "Webpack module bundler application",
   "main": "web.config.js",
   "scripts": {
+    "build":"webpack --config webpack.config.js",
     "start": "webpack-dev-server --hot --inline"
   },
   "repository": {

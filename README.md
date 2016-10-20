@@ -10,9 +10,15 @@ Webpack module bundler application
 To get the application to on your local, follow the steps:
 
 1. clone repository
+2. C:/>npm insall webpack -g
+3.C:/>npm install webpack-dev-server -g
 
 ## Run
 Run the application with webpack live server
 
+1.To build the application run the following command
+  C:/>webpack-module-bundler>webpack ./src/app.js ./dist/bundle.js
+2.To see out in brower run in localserver, ex: localhost:8080
+ C:/>webpack-module-bundler>webpack ./src/app.js ./dist/bundle.js
 
 

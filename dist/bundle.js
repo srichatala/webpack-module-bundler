@@ -46,7 +46,7 @@
 
 	var component = __webpack_require__(1);
 
-	document.write('Welcome');
+	document.write('Welcome to Webpack');
 
 	document.write(component);
 
