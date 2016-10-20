@@ -1,6 +1,7 @@
+[![Build Status](https://img.shields.io/travis/srichatala/webpack-module-bundler.svg?style=flat)](https://travis-ci.org/srichatala/webpack-module-bundler)
 
-# Webpack module bundler |travis-img|_
-======================================  
+# Webpack module bundler
+========================
 Webpack module bundler application
 
 ##Pre-Requisities
@@ -22,6 +23,3 @@ Run the application with webpack live server
 3. To view output in brower run the follwing command. ex: localhost:8080 
 4. C:/>webpack-module-bundler>webpack-dev-server
 
-
-.. |travis-img| image:: https://api.travis-ci.org/srichatala/webpack-module-bundler.png
-.. _travis-img: https://travis-ci.org/srichatala/webpack-module-bundler
