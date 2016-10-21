@@ -12,8 +12,7 @@ Webpack module bundler application
 To get the application to on your local, follow the steps:
 
 1. clone repository
-2. C:/>npm insall webpack -g
-3. C:/>npm install webpack-dev-server -g
+2. C:/>npm insall
 
 ## Run
 Run the application with webpack live server
