@@ -21,5 +21,5 @@ Run the application with webpack live server
 1. To build the application run the following command 
 2. C:/>webpack-module-bundler>webpack
 3. Live server
-4. C:/>webpack-module-bundler>webpack-dev-server --pipeline --inline --hot
+4. C:/>webpack-module-bundler>npm start
 
