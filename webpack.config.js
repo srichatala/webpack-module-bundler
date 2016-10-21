@@ -1,10 +1,11 @@
 module.exports={
     entry:[
-        './src/app.js'
+        './src/app.jsx'
     ],
     output:{
-        path:'dist',
-        filename:'bundle.js'
+        path:__dirname,        
+        filename:'bundle.jsx',
+        publicPath:'dist'
     },
     module:{
         loaders:[

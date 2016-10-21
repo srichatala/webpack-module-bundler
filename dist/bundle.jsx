@@ -44,17 +44,28 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var component = __webpack_require__(1);
+	module.exports = __webpack_require__(1);
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var component = __webpack_require__(2);
 
 	document.write('Welcome to Webpack');
 
 	document.write(component);
 
 /***/ },
-/* 1 */
+/* 2 */
 /***/ function(module, exports) {
 
-	module.exports = "It works from the component.js";
+	"use strict";
+
+	module.exports = "get data from componentjs";
 
 /***/ }
 /******/ ]);
